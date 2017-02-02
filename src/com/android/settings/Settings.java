@@ -180,4 +180,7 @@ public class Settings extends SettingsActivity {
 
     // Elegant Settings
     public static class ElegantSettingsActivity extends SettingsActivity { /* empty */ }
+
+    // Running services
+    public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
 }
