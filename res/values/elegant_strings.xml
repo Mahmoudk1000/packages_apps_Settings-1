@@ -56,5 +56,9 @@
     <string name="selinux_status_disabled">Disabled</string>
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
+
+    <!-- Elegant Settings -->
+    <string name="elegant_settings_title">Elegance</string>
+    <string name="elegant_settings_dashboard_summary">Make it Spunky</string>
     
 </resources>
