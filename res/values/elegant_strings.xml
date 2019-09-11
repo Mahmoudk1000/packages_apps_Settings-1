@@ -240,4 +240,9 @@
     <string name="home_handle_low_label">Hidden</string>
     <string name="home_handle_high_label">Long</string>
 
+    <!-- Themes -->
+    <string name="theme_customization_accent_color_title">Accent</string>
+    <string name="theme_customization_font_title">Fonts</string>
+    <string name="theme_customization_icon_shape_title">Icon shape</string>
+   
 </resources>
