@@ -42,6 +42,8 @@ public class ElegantVersionDetailPreferenceController extends BasePreferenceCont
     private static final int ACTIVITY_TRIGGER_COUNT = 3;
 
     private static final String KEY_ELEGANT_VERSION_PROP = "org.elegant.version";
+    private static final String KEY_ELEGANT_RELEASETYPE_PROP = "org.elegant.build_type";
+    private static final String KEY_ELEGANT_FANBASE_PROP = "org.elegant.fanbase_name";
 
     private final UserManager mUserManager;
     private final long[] mHits = new long[ACTIVITY_TRIGGER_COUNT];
@@ -63,8 +65,10 @@ public class ElegantVersionDetailPreferenceController extends BasePreferenceCont
     @Override
     public CharSequence getSummary() {
 	String[] elegantVer = SystemProperties.get(KEY_ELEGANT_VERSION_PROP).split("v");
-	if (!elegantVer[1].isEmpty())
-	    return elegantVer[1];
+	String elegantReleasetype =  SystemProperties.get(KEY_ELEGANT_RELEASETYPE_PROP);
+	String elegantFanbasetype =  SystemProperties.get(KEY_ELEGANT_FANBASE_PROP);
+	if (!elegantVer[1].isEmpty() && !elegantReleasetype.isEmpty() && !elegantFanbasetype.isEmpty())
+	    return elegantVer[1] + " | " + elegantFanbasetype + " | " + elegantReleasetype;
 	else
             return mContext.getString(R.string.unknown);
     }
