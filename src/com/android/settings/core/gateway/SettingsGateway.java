@@ -150,6 +150,7 @@ import com.android.settings.wifi.savedaccesspoints.SavedAccessPointsWifiSettings
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.elegant.settings.Elegance;
+import com.elegant.settings.fragments.GamingMode;
 
 public class SettingsGateway {
 
@@ -289,6 +290,7 @@ public class SettingsGateway {
             DarkModeSettingsFragment.class.getName(),
             Elegance.class.getName(),
             RunningServices.class.getName(),
+            GamingMode.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -329,5 +331,6 @@ public class SettingsGateway {
             UserBackupSettingsActivity.class.getName(),
             Settings.ElegantSettingsActivity.class.getName(),
             Settings.DevRunningServicesActivity.class.getName(),
+            Settings.GamingModeActivity.class.getName(),
     };
 }
