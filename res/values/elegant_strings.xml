@@ -19,4 +19,7 @@
     <string name="elegant_version">Elegant-UI version</string>
     <string name="build_date">Build date</string>
     
+    <!-- Elegant Device -->
+    <string name="about_device_name">Device</string>
+    
 </resources>
