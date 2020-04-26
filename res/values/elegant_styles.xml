@@ -22,4 +22,8 @@
         <item name="android:lineSpacingMultiplier">1.2</item>
     </style>
 
+    <declare-styleable name="Themes">
+        <attr name="waveViewStyle" format="reference"/>
+    </declare-styleable>
+
 </resources>
