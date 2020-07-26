@@ -86,7 +86,7 @@ public class MasterSwitchPreference extends TwoTargetPreference {
                     } else {
                         persistBoolean(mChecked);
                     }
-                    mVibrator.vibrate(VibrationEffect.get(VibrationEffect.EFFECT_CLICK));
+                    mVibrator.vibrate(VibrationEffect.get(VibrationEffect.EFFECT_HEAVY_CLICK));
                 }
             });
         }
