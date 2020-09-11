@@ -45,6 +45,6 @@ public class AboutDeviceNamePreferenceController extends BasePreferenceControlle
                 mContext.getString(R.string.unknown));
         String deviceCodename = SystemProperties.get(KEY_DEVICE_CODENAME_PROP,
                 mContext.getString(R.string.unknown));
-	    return deviceName + " | " + deviceCodename;
+	    return deviceCodename + " | " + deviceName;
     }
 }
