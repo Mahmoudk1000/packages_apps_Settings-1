@@ -16,7 +16,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Elegant-UI version preference -->
-    <string name="elegant_version">Elegant-UI version</string>
+    <string name="elegant_version">Elegant UI version</string>
     <string name="build_date">Build date</string>
     
     <!-- Elegant Device -->
