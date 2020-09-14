@@ -70,6 +70,17 @@
         android:summary="@string/summary_placeholder"
         settings:searchable="false"/>
 
+    <PreferenceCategory
+        android:title="@string/privacy_chip_category">
+
+        <com.elegant.support.preferences.SystemSettingSwitchPreference
+            android:key="privacy_chip_view"
+            android:title="@string/privacy_chip_visibility"
+            android:summary="@string/privacy_chip_visibility_summary"
+            android:defaultValue="true"/>
+
+    </PreferenceCategory>
+
     <!-- Privacy Service -->
     <PreferenceCategory
         android:key="privacy_services"

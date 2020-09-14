@@ -244,5 +244,10 @@
     <string name="theme_customization_accent_color_title">Accent</string>
     <string name="theme_customization_font_title">Fonts</string>
     <string name="theme_customization_icon_shape_title">Icon shape</string>
+
+    <!-- Privacy chip view -->
+    <string name="privacy_chip_category">Privacy Indicator</string>
+    <string name="privacy_chip_visibility">Privacy Chip</string>
+    <string name="privacy_chip_visibility_summary">Show Privacy Chip in when important permissions are in use</string>
    
 </resources>
