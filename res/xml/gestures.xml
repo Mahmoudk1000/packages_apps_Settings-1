@@ -21,6 +21,13 @@
     android:key="gesture_settings_screen"
     android:title="@string/gesture_preference_title">
 
+    <com.elegant.settings.preferences.FragmentPreview
+        android:layout="@layout/gestures_layout"
+        android:selectable="false"/>
+
+  <PreferenceCategory
+    android:title="@string/gest_system_title">	
+
     <Preference
         android:key="gesture_assist_input_summary"
         android:title="@string/assist_gesture_title"
@@ -81,10 +88,15 @@
         android:fragment="com.android.settings.gestures.GlobalActionsPanelSettings"
         settings:controller="com.android.settings.gestures.GlobalActionsPanelPreferenceController" />
 
+ </PreferenceCategory>
+
+ <PreferenceCategory
+     android:title="@string/gest_touch_title">
+
     <Preference
         android:key="touchscreen_gesture_settings"
         android:persistent="false"
-        android:title="@string/touchscreen_gesture_settings_title"
+        android:title="@string/gest_screen_off_title"
         android:summary="@string/touchscreen_gesture_settings_summary"
         settings:controller="com.android.settings.gestures.TouchGestureSettingsPreferenceController">
         <intent
@@ -92,6 +104,8 @@
             android:targetPackage="com.android.touch.gestures"
             android:targetClass="com.android.touch.gestures.TouchscreenGestureSettings" />
     </Preference>
+
+ </PreferenceCategory>
 
     <PreferenceCategory
        android:title="@string/swipe_actions_title">

@@ -219,7 +219,7 @@
     <string name="kill_app">Kill foreground app</string>
 
     <!-- Long swipe gestures -->
-    <string name="swipe_actions_title">Swipe gestures actions</string>
+    <string name="swipe_actions_title">Swipe</string>
     <string name="action_title">Gestures action</string>
     <string name="action_summary">Set custom actions for long swipe Gestures</string>
     <string name="navbar_gesture_tweaks_pref_title">Advanced gestures</string>
@@ -249,5 +249,10 @@
     <string name="privacy_chip_category">Privacy Indicator</string>
     <string name="privacy_chip_visibility">Privacy Chip</string>
     <string name="privacy_chip_visibility_summary">Show Privacy Chip in when important permissions are in use</string>
-   
+
+    <!-- Gestures -->
+    <string name="gest_system_title">System</string>
+    <string name="gest_touch_title">Touch</string>   
+    <string name="gest_screen_off_title">Screen off Gestures</striong>
+
 </resources>
